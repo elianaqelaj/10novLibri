@@ -5,23 +5,18 @@ body {
 	text-align: center;
 	color: #f34f1d;
 	font-size: 20px;
+	
+}
+
+h2{
 	.redaction-bold {
   font-family: "Redaction", serif;
   font-weight: 700;
   font-style: normal;
 }
-
-.redaction-bold {
-  font-family: "Redaction", serif;
-  font-weight: 700;
-  font-style: normal;
 }
 
-.redaction-regular-italic {
-  font-family: "Redaction", serif;
-  font-weight: 400;
-  font-style: italic;
-}
+
 	
 
 table {
@@ -31,13 +26,29 @@ table {
 	margin-right: auto;
 	width: 450px;
 	height: 300px;
+	padding: 1px;
+	
+}
+
+tbody {
+	border: 1px #f78764;
 }
 
 td {
 	color: #8d2707;
 	text-align: center;
-	width: auto;
+	font-size: 15px;
+	padding: 3px;
 	height: auto;
+	border: 1px solid #f78764;
+}
+
+.etichetta{
+	font-weight: bold;
+}
+
+.prezzo{
+	font-weight: bold;
 }
 
 td:hover { 
@@ -46,12 +57,13 @@ td:hover {
 
 a {
 	text-decoration: none;
+	
 }
 
 .foto {
 	position: relative;
-	width: 150px;
-	height: 200px; 
+	width: 100px;
+	height: 150px; 
 	margin: 50px;
 	border: 2px solid #f78764;
 	
@@ -73,5 +85,4 @@ a {
 	max-height: 100%; 
 	width: auto; 
 	height: auto;
-}
 }
