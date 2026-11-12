@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+.redaction-regular {
+  font-family: "Redaction", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.redaction-bold {
+  font-family: "Redaction", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.redaction-regular-italic {
+  font-family: "Redaction", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 body {
 	background-color: #ffeedd;
 	text-align: center;
